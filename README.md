@@ -1,6 +1,7 @@
 # Cyber Security Solutions Website
 
 This is a demo website for a fictional company called **Cyber Security Solutions (CSS)**, built as a coursework project using [Create React App](https://github.com/facebook/create-react-app). 
+I plan on adapting this to be a template for future portfolios.
 
 ## Features
 
@@ -46,12 +47,17 @@ npm run build
 The build output will be in the `build/` directory.
 
 
-## Customization
+### Adding Blogs
 
-- **Content:** Add More/Edit Markdown files in `public/blogs/` for blog posts.
-- **Pages:** Modify or add React components in `src/Components/`.
-- **Assets:** Replace images in `src/assets/` as needed.
-
+To add more blogs
+1. Put your markdown file(s) in `public/blogs`.
+2. Index the new file(s) in `public/blogs.json` with your chosen title and file path.
+3. Add description to blog:
+   ```md
+   ---
+   description: Description content
+   ---
+   ```
 
 ---
 
