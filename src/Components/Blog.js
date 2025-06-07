@@ -2,6 +2,8 @@ import { useNavigate } from "react-router-dom";
 import RouteTransition from "./RouteTransition";
 import { useEffect, useState } from "react";
 import fm from "front-matter";
+import ReactMarkdown from "react-markdown";
+
 
 const Blog = () => {
   const navigate = useNavigate();
@@ -43,7 +45,7 @@ const Blog = () => {
                 style={{ cursor: "pointer" }}
               >
                 <div className="title-box">
-                  <h1 dangerouslySetInnerHTML={{ __html: blog.title }} />
+                  <h1 className="centered-text">{blog.title}</h1>
                 </div>
                 <p>
                   {descriptions[blog.id] || "Loading..."}

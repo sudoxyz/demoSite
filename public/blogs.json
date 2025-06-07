@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "title": "IoT <span class=\"blue\">Botnet</span> Investigation & Research",
+    "title": "IoT Botnet Investigation & Research",
     "mdFile": "/blogs/IoTBotnet.md"
   },
   {
     "id": 2,
-    "title": "What Is <span class=\"blue\">Cyber</span> Security?",
+    "title": "What Is Cyber Security?",
     "mdFile": "/blogs/CyberSecImportance.md"
   }
 ]
