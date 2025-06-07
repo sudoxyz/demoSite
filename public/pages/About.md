@@ -1,8 +1,13 @@
 ---
-quote: '<p>"Security is not a product, but a process. Our goal is to empower you to operate        
-    safely and confidently."</p>
-    <br />
-    <strong>–</strong> <span>Ethan Miller</span>, Founder' 
+quote: '
+    "Security is not a product, but a process. Our goal is to empower you to operate        
+    safely and confidently."
+
+
+    &nbsp;
+
+
+    – **Ethan Miller**, Founder' 
 ---
 
 **Cyber Security Solutions (CSS)** was founded by **Ethan Miller** with a mission to help organizations of all sizes defend against modern cyber threats.
