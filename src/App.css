@@ -21,7 +21,7 @@ body::before {
   rgba(255, 255, 255, 0.1),
   rgba(255, 255, 255, 0.1)
   ),
-  url("./assets/bg.jpg") no-repeat center center fixed;
+  url("./assets/bg.webp") no-repeat center center fixed;
   background-size: cover;
   opacity: 1;
   pointer-events: none;
