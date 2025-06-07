@@ -18,10 +18,10 @@ body::before {
   height: 100vh;
   z-index: -1;
   background: linear-gradient(
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0.1)
-    ),
-    url("./assets/bg.jpg") no-repeat center center fixed;
+  rgba(255, 255, 255, 0.1),
+  rgba(255, 255, 255, 0.1)
+  ),
+  url("./assets/bg.jpg") no-repeat center center fixed;
   background-size: cover;
   opacity: 1;
   pointer-events: none;
@@ -464,6 +464,7 @@ blockquote strong {
 @media (max-width: 900px) {
   .blog-button {
     flex: 1 1 100%;
+    min-width: calc(100% - 3rem);
   }
 }
 
