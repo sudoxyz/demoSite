@@ -9,7 +9,7 @@ const About = () => {
   const [quote, setQuote] = useState("");
 
   useEffect(() => {
-    fetch("/About.md")
+    fetch("/pages/About.md")
       .then((res) => res.text())
       .then(async (text) => {
         const { attributes, body } = fm(text);
@@ -25,7 +25,7 @@ const About = () => {
           <div className="title-box"><h1>About Us</h1></div>
           <ReactMarkdown>{markdown}</ReactMarkdown>
           <div className="quote-box">
-            <div dangerouslySetInnerHTML={{ __html: quote}}></div>
+            <ReactMarkdown>{quote}</ReactMarkdown>
           </div>
         </div>
       </RouteTransition>

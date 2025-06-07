@@ -262,8 +262,7 @@ hr {
   font-style: italic;
   margin: 0;
 }
-.quote-box span {
-  font-weight: bold;
+.quote-box strong {
   color: #00eeff;
 }
 @media (max-width: 600px) {
