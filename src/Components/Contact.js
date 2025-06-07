@@ -1,26 +1,24 @@
 import RouteTransition from "./RouteTransition";
-
+import ReactMarkdown from "react-markdown";
+import { useEffect, useState } from "react";
 
 const Contact = () => {
+  const [markdown, setMarkdown] = useState("");
+
+  useEffect(() => {
+    fetch("/pages/Contact.md")
+      .then((res) => res.text())
+      .then((text) => setMarkdown(text));
+  }, []);
+
   return (
     <div id="contact">
-
       <RouteTransition>
         <div className="content-box">
           <div className="title-box">
             <h1>Contact</h1>
           </div>
-          <p>
-            Have questions or need support? Reach out to our team and we’ll get
-            back to you as soon as possible.
-          </p>
-          <p>
-            Contact us at{" "}
-            <a href="mailto:info@sudo404.xyz" style={{ color: "#00eeff" }}>
-              info@sudo404.xyz
-            </a>{" "}
-            or use the form below.
-          </p>
+          <ReactMarkdown>{markdown}</ReactMarkdown>
         </div>
         <div className="contact-form-section">
           <div className="title-box">
